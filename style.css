@@ -23,6 +23,7 @@
   border-radius: 20px;
   width: fit-content;
   height: 700px;
+  position: relative;
 }
 .container p {
   color: gray;
@@ -30,7 +31,7 @@
 .box {
   display: flex;
   flex-direction: column;
-  width: 360px;
+  width: 380px;
   padding: 24px;
   border-right: 1px solid lightgray;
 }
@@ -40,7 +41,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
-  height: 260px;
+  height: 280px;
   border-bottom: 1px solid lightgray;
   padding-bottom: 16px;
 }
@@ -79,21 +80,19 @@
   border-right: none;
 }
 
-.box3-top {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 10px;
-  height: 260px;
-  border-bottom: 1px solid lightgray;
-  padding-bottom: 16px;
-}
-
-.box3-top img {
-  width: 100px;
-  height: 100px;
-}
-
 span {
   font-size: 14px;
+}
+
+.badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #f0f6df;
+  border: none;
+  border-radius: 8px;
+  padding: 4px 8px;
+  color: #446c3d;
+  font-size: 10px;
+  font-weight: 500;
 }
